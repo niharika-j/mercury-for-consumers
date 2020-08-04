@@ -1,0 +1,117 @@
+.deals-fixed-content {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.mercury-deals-segment {
+    --background: #f6f4f4;
+    margin-top: 20px;
+}
+.mercury-deals-segment-button {
+    --indicator-color: linear-gradient(to bottom, #50C778, #08A76B);
+    --color-checked: #fff;
+    --indicator-box-shadow: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    --padding-top: 8px;
+    --padding-bottom: 8px;
+}
+.mercury-deals-segment-button-label {
+    font-size: 14px;
+    font-weight: 600;
+}
+.mercury-deals-search {
+    width: 85%;
+    text-align: left;
+    --background: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 36px !important;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.mercury-deals-search-filter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.mercury-deals-filter-select {
+    padding-left: 0;
+    padding-right: 2px;
+    font-size: 14px;
+    text-align: left;
+    width: fit-content;
+    --placeholder-color: #08A76B;
+    --placeholder-opacity: 1;
+}
+.mercury-deals-filter-col {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.mercury-deals-filter-grid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.mercury-deals-filter-row {
+    height: 30px;
+}
+.card-text-block {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+}
+.deal-card {
+    display: flex;
+    flex-direction: row;
+}
+.deal-card-info, .deal-card-expiry, .deal-card-available {
+    display: inline-block;
+}
+.deal-card-info {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #08A76B;
+    font-weight: 600;
+}
+.deal-card-expiry, .deal-card-available {
+    font-size: 14px;
+    position: absolute;
+}
+.deal-card-available {
+    right: 5px;
+    top: 5px;
+}
+.deal-card-expiry {
+    right: 5px;
+    bottom: 0;
+}
+.deal-card-header {
+    padding: 0;
+}
+.deal-card-title {
+    font-size: 22px;
+    font-weight: normal;
+    color: #3f3f3f;
+    margin-bottom: 10px;
+}
+.deal-card-subtitle {
+    font-weight: normal;
+    color: #3f3f3f;
+    font-size: 14px;
+}
+.deal-card-merchant-img {
+    width: 35%;
+}
+.deal-card-content {
+    width: 65%;
+    padding: 5px 10px;
+}
+.deal-card-info-content {
+    position: absolute;
+    bottom: 10px;
+    width: 60%;
+}

@@ -1,0 +1,8 @@
+.mercury-tab-btn {
+    --padding-bottom: 5px;
+    --padding-top: 5px;
+    --color-selected: black;
+}
+.mercury-tab-bar {
+    height: 65px;
+}
